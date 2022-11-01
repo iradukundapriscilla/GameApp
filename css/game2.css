@@ -123,6 +123,53 @@ img {
 
 }
 
+.bird {
+  position: relative;
+  width: 20%;
+  animation: fly 5s infinite
+}
+
+@keyframes bg-color{
+  0%{background-color: #6666ff;}
+  25%{background-color: #3398db;}
+  50%{background-color: skyblue;}
+  75%{background-color: #3398db;}
+  100%{background-color: #6666ff;}
+}
+
+@keyframes fly
+{
+  0%{
+    left: -20%;
+    top: 5px;
+  }
+
+  0%{
+    
+    top: 150px;
+  }
+
+ 25%{
+    
+    top: 5px;
+  }
+
+  50%{
+    
+    top: 30px;
+  }
+
+  75%{
+    
+    top: 25px;
+  }
+
+  100%{
+    right: -100px;
+    top: 105px;
+  }
+}
+
 
  
 
