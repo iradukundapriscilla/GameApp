@@ -6,6 +6,12 @@ html, body {
   padding: 0;
   margin: 0;
   overflow: hidden;
+  position: absolute;
+  animation: bg-color 5s infinite;
+  background-image: url(../img/asset/cccc.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
 }
 
 .container {
@@ -16,19 +22,6 @@ html, body {
 .container img {
   width: 200%;
   height: auto;
-}
-
-
-body {
-  display: flex;
- /*
- justify-content: center;
-  align-items: center;
-  */
-  background-image: url(../img/asset/cccc.png);
-  background-size:cover;
-  background-repeat: no-repeat;
-
 }
 
 .btn {
@@ -46,6 +39,76 @@ body {
  
   
   }
+
+  .btn2 {
+    width:200px;
+    height:45px;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(15, 15, 15);
+    box-shadow:0px 3px 0px 0px #807e7d;
+    border-radius:60px;
+    border-image: url(../img/asset/vv.jpg) 100% round;
+    margin: 60;
+    border: 10px solid transparent;
+    background-position: center;
+   
+    
+    }
+
+    .btn3 {
+      width:200px;
+      height:45px;
+      font-size:16px;
+      font-weight:bold;
+      color:rgb(15, 15, 15);
+      box-shadow:0px 3px 0px 0px #807e7d;
+      border-radius:60px;
+      border-image: url(../img/asset/vv.jpg) 100% round;
+      margin: 60;
+      border: 10px solid transparent;
+      background-position: center;
+     
+      
+      }
+
+      .btn4 {
+        width:200px;
+        height:45px;
+        font-size:16px;
+        font-weight:bold;
+        color:rgb(15, 15, 15);
+        box-shadow:0px 3px 0px 0px #807e7d;
+        border-radius:60px;
+        border-image: url(../img/asset/vv.jpg) 100% round;
+        margin: 60;
+        border: 10px solid transparent;
+        background-position: center;
+       
+        
+        }
+
+
+        .btn5 {
+          width:200px;
+          height:45px;
+          font-size:16px;
+          font-weight:bold;
+          color:rgb(15, 15, 15);
+          box-shadow:0px 3px 0px 0px #807e7d;
+          border-radius:60px;
+          border-image: url(../img/asset/vv.jpg) 100% round;
+          margin: 60;
+          border: 10px solid transparent;
+          background-position: center;
+          left: 100%;
+         
+          
+          }
+        
+      
+    
+  
 
   .btn1 {
     padding-right: 30%;
@@ -68,10 +131,10 @@ button a {
   color: white;
 }
 button:hover, .button:focus {
-  background-color: #0b42f7;
+  background-color: #0b42f78c;
 }
 
-
+/*
 .container {
 
   float: left;
@@ -86,7 +149,7 @@ button:hover, .button:focus {
 
   font-size: .9em;
 
-}
+}*/
 
 .container  {
   position: absolute;
@@ -100,7 +163,7 @@ button:hover, .button:focus {
   padding: 16px 30px;
   border-radius: 20px;
   cursor: pointer;
-  text-align: center;
+  
   width: 50%;
   height: 50%;
 }
@@ -125,8 +188,10 @@ img {
 
 .bird {
   position: relative;
-  width: 20%;
-  animation: fly 5s infinite
+  width: 40%;
+  left: 100%;
+  animation: fly 5s infinite;
+ 
 }
 
 @keyframes bg-color{
@@ -140,7 +205,7 @@ img {
 @keyframes fly
 {
   0%{
-    left: -20%;
+    right: -20%;
     top: 5px;
   }
 
@@ -165,13 +230,14 @@ img {
   }
 
   100%{
-    right: -100px;
+    left: -100px;
     top: 105px;
   }
 }
 
 
  
+
 
 
  
